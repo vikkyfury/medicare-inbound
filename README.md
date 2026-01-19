@@ -28,6 +28,20 @@ This repo extracts a **Medicare-inbound** slice from a large, real-world call-ce
 - **Utterance seeds** per intent for realistic evaluation
 - **Eval payload** (`evalset.jsonl`) + offline **evaluator** and reports
 
+## Data & Artifacts (Not in Git)
+
+Large datasets and generated artifacts live under `data/`, `reports/`, `outputs/`, and `package/` and are intentionally **ignored by Git**. Use the scripts to regenerate them locally.
+
+## Key Scripts (01–07)
+
+- `scripts/01_fetch_medicare_inbounds.py` — download & normalize Medicare inbound slice
+- `scripts/02_build_intent_dataset.py` — extract customer utterances + seed intents
+- `scripts/03_cluster_and_gold_template.py` — optional clustering + gold template
+- `scripts/04_prepare_kb_and_autolink.py` — fetch CMS/SSA docs and auto-link intents
+- `scripts/05_finalize_gold_answers.py` — curate gold answers
+- `scripts/06*_export_eval_payload*.py` — build eval payloads
+- `scripts/07*_eval*.py` — run evals / diagnostics
+
 ---
 
 ## Repo Layout
@@ -349,4 +363,3 @@ clean:
 ---
 
 *Happy building and evaluating!*
-

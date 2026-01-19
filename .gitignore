@@ -56,3 +56,6 @@ eval/reports/
 
 # Large datasets
 data/
+
+# Vendored deps
+package/
