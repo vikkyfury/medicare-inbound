@@ -1,0 +1,20 @@
+{"intent": "idk_other", "predicted_handoff": true, "predicted_answer": ""}
+{"intent": "appointment_referral", "predicted_handoff": true, "predicted_answer": ""}
+{"intent": "benefits_coverage", "predicted_handoff": false, "predicted_answer": "Skip to main content * [Home](/) * [What's covered?](/coverage) * Find services alphabetically Search __ Search __ Print…"}
+{"intent": "vision_dental_hearing", "predicted_handoff": false, "predicted_answer": "How does Medicare Advantage work? Medicare Advantage bundles your Part A, Part B, and usually Part D coverage…"}
+{"intent": "premiums_billing", "predicted_handoff": false, "predicted_answer": "Cost Original Medicare| Medicare Advantage ---|--- For Part B-covered services, **you usually pay 20% of the Medicare-approved amount**…"}
+{"intent": "cancel_disenroll", "predicted_handoff": false, "predicted_answer": "Your plan changes its contract with Medicare Medicare takes an official action (called a \"sanction\") because of a…"}
+{"intent": "claims_status", "predicted_handoff": false, "predicted_answer": "Medicare & You 2026 The official U.S. government Medicare handbook 22 What’s new & important? Check out what’s…"}
+{"intent": "pcp_network", "predicted_handoff": false, "predicted_answer": "Compare types of Medicare Advantage Plans [Get specific cost information about a plan type you’re interested in.](https://www.medicare.gov/plan-compare/#/?year=2025&lang=en) Plan…"}
+{"intent": "id_card", "predicted_handoff": false, "predicted_answer": "Joining a plan To join a Medicare health plan or drug plan, you generally must: * Have Medicare…"}
+{"intent": "rx_part_d", "predicted_handoff": false, "predicted_answer": "What do drug plans cover? Medicare drug coverage (Part D) is extra coverage people with Medicare can choose…"}
+{"intent": "copay_coins_deduct", "predicted_handoff": false, "predicted_answer": "Cost Original Medicare| Medicare Advantage ---|--- For Part B-covered services, **you usually pay 20% of the Medicare-approved amount**…"}
+{"intent": "eligibility", "predicted_handoff": false, "predicted_answer": "Estimate my eligibility Get estimate of when you can first sign up [ Get My Sign-up Date ](/eligibilitypremiumcalc#eligibility)…"}
+{"intent": "enrollment", "predicted_handoff": false, "predicted_answer": "When to join a Medicare health or drug plan You can only join, switch, or drop a Medicare…"}
+{"intent": "fraud_waste_abuse", "predicted_handoff": true, "predicted_answer": ""}
+{"intent": "compliment_complaint", "predicted_handoff": true, "predicted_answer": ""}
+{"intent": "appeals_grievances", "predicted_handoff": false, "predicted_answer": "Get more coverage Compare options & when to get coverage [ Explore Coverage Options ](/basics/get-started-with-medicare/get-more-coverage) Get more coverage…"}
+{"intent": "prior_auth", "predicted_handoff": false, "predicted_answer": "Coverage Original Medicare| Medicare Advantage ---|--- Original Medicare covers most medically necessary services and supplies in hospitals, doctors’…"}
+{"intent": "otc_benefit", "predicted_handoff": false, "predicted_answer": "Foreign travel **Original Medicare**| **Medicare Advantage** ---|--- Original Medicare generally**doesn’t cover medical care outside the U.S.** You may…"}
+{"intent": "plan_change", "predicted_handoff": false, "predicted_answer": "Other special situations I have Medicare and Medicaid, or I get Extra Help paying for Medicare drug coverage."}
+{"intent": "address_contact_update", "predicted_handoff": false, "predicted_answer": "[Add content from KB]"}

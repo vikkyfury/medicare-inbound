@@ -1,0 +1,3 @@
+question,expected_span,doc_id,year,topic,part
+"How much is the Part B premium in 2025?","$185","part-b-2025",2025,costs,B
+"Do I pay IRMAA in 2025 if my income is $110,000?","IRMAA","part-b-2025",2025,irmaa,B

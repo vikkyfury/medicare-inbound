@@ -1,0 +1,8 @@
+# configs/dataset.yaml
+dataset_id: "AIxBlock/92k-real-world-call-center-scripts-english"
+snapshot_dir: "data/_hf_snapshot"
+staged_medicare_raw: "data/medicare_inbounds/_raw_medicare_json"
+normalized_jsonl: "data/medicare_inbounds/medicare_conversations.jsonl"
+preview_json: "data/medicare_inbounds/_sample_preview.json"
+index_csv: "data/medicare_inbounds/_file_index.csv"
+domain_filter_regex: '(?i)medicare[_\- ]?inbound'

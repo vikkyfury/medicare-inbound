@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "total": 2,
+    "passed": 0,
+    "overall_acc": 0.0,
+    "span_acc": 1.0,
+    "cite_acc": 0.0,
+    "avg_latency_ms": 68766.9
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "How much is the Part B premium in 2025?",
+      "answer": "The Part B premium in 2025 is $185 per month for most people. [1]\n\n**Summary** [2]\n• The standard Part B monthly premium amount is $185 in 2025 [3]\n• Most people pay this standard premium amount [4]\n\n**Edge cases** [1]\n• Higher-income individuals may pay an additional Income-Related Monthly Adjustment Amount (IRMAA) [2]\n• IRMAA applies if 2023 modified adjusted gross income was above $106,000 (individual) or $212,000 (married filing jointly) [3]\n• Some people with limited income and resources may qualify for programs to help pay premiums [4]\n\nThe context provides clear information on the 2025 Part B premium. It states multiple times that the standard amount is $185 per month. However, it's important to note that higher-income beneficiaries may pay more due to IRMAA, while those with limited resources may qualify for assistance programs. [1]",
+      "chunk_count": 4,
+      "latency_ms": 1534.0,
+      "span_expected": "$185",
+      "span_ok": true,
+      "doc_id": "part-b-2025",
+      "cite_ok": false,
+      "ok": false,
+      "citations": [
+        "Source Chunk 1: s3://(unknown)",
+        "Source Chunk 2: s3://(unknown)",
+        "Source Chunk 3: s3://(unknown)",
+        "Source Chunk 4: s3://(unknown)"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Do I pay IRMAA in 2025 if my income is $110,000?",
+      "answer": "Yes — you will pay an IRMAA (Income-Related Monthly Adjustment Amount) in 2025 if your income is $110,000. [1]\n\n**Summary** [2]\n• For individual filers with income above $106,000 up to $133,000, you pay $259.00 per month for Part B in 2025 [3]\n• This includes the standard premium of $185.00 plus an IRMAA of $74.00 [4]\n\n**Edge cases** [1]\n• Different thresholds apply for joint filers and married filing separately [2]\n• Late enrollment penalties may increase these amounts [3]\n• IRMAA is based on your income from 2 years prior (2023 for 2025 premiums) [4]\n\nThe context shows that individuals with yearly income above $106,000 up to $133,000 in 2023 will pay $259.00 per month for Part B in 2025. This is $74.00 more than the standard premium of $185.00, representing the IRMAA. With an income of $110,000, you fall into this bracket and will therefore be subject to IRMAA in 2025. [1]",
+      "chunk_count": 4,
+      "latency_ms": 135999.8,
+      "span_expected": "IRMAA",
+      "span_ok": true,
+      "doc_id": "part-b-2025",
+      "cite_ok": false,
+      "ok": false,
+      "citations": [
+        "Source Chunk 1: s3://(unknown)",
+        "Source Chunk 2: s3://(unknown)",
+        "Source Chunk 3: s3://(unknown)",
+        "Source Chunk 4: s3://(unknown)"
+      ]
+    }
+  ]
+}

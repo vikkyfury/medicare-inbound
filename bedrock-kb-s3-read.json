@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowListBucket",
+      "Effect": "Allow",
+      "Action": [
+        "s3:ListBucket",
+        "s3:GetBucketLocation"
+      ],
+      "Resource": ["arn:aws:s3:::contact-center-kb-7873dc55172c43c0bfa7704c8f95dc88"]
+    },
+    {
+      "Sid": "AllowReadObjectsUnderKb",
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:GetObjectVersion"
+      ],
+      "Resource": ["arn:aws:s3:::contact-center-kb-7873dc55172c43c0bfa7704c8f95dc88/kb/*"]
+    }
+  ]
+}

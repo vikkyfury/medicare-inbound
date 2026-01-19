@@ -1,0 +1,58 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.DS_Store
+
+# Virtual envs
+.venv/
+venv/
+.pkgvenv/
+
+# Env / secrets
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cert
+*.csr
+*.der
+*.kubeconfig
+
+# Cloud creds/configs
+.aws/
+.gcp/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE
+.vscode/
+.idea/
+
+# Data caches / heavy artifacts
+data/_hf_snapshot/
+outputs/
+logs/
+reports/
+eval/reports/
+
+# Checkpoints & temp
+*.tmp
+*.bak
+*.log
+
+# Build artifacts
+*.zip
+
+# Large datasets
+data/

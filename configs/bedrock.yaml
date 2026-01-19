@@ -1,0 +1,7 @@
+region: us-east-1
+knowledge_base_id: "MVV1CQ8C3E"
+data_source_id: "DQY2LXOEDP"
+top_k: 4
+model_id: "anthropic.claude-3-5-sonnet-20240620-v1:0"
+temperature: 0.2
+max_tokens: 800

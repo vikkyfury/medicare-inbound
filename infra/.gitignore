@@ -1,0 +1,30 @@
+# Secrets / env files
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cert
+*.csr
+*.der
+*.kubeconfig
+
+# Local credentials/configs
+.aws/
+.gcp/
+*.tfstate
+*.tfstate.*
+.terraform/
+.venv/
+venv/
+
+# Build/artifacts
+*.zip
+*.log
+__pycache__/
+*.pyc

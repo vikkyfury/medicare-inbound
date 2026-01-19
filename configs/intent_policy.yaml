@@ -1,0 +1,24 @@
+kb_answerable:
+- enrollment
+- plan_change
+- benefits_coverage
+- premiums_billing
+- claims_status
+- id_card
+- pcp_network
+- rx_part_d
+- prior_auth
+- eligibility
+- appeals_grievances
+- copay_coins_deduct
+- vision_dental_hearing
+- otc_benefit
+- address_contact_update
+- cancel_disenroll
+handoff_required:
+- fraud_waste_abuse
+- compliment_complaint
+- appointment_referral
+- idk_other
+notes: Edit this list as your KB grows; promote intents from handoff to kb_answerable
+  when you add authoritative content.
